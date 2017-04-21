@@ -4,8 +4,8 @@ const config = require('./config');
 const util = require('util');
 
 const powerSwitch = config.powerSwitch;
-const startTime = '21:20:00';
-const endTime = '21:25:00';
+const startTime = '21:35:00';
+const endTime = '21:40:00';
 
 const overnightMode = moment(startTime, 'H:mm:ss').unix() > moment(endTime, 'H:mm:ss').unix();
 
