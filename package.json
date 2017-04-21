@@ -1,0 +1,28 @@
+{
+  "name": "injection_molder",
+  "version": "1.0.0",
+  "description": "Timer application for Raspberry PI using the Adafruit Power Tail Switch II",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maugdog/power-timer.git"
+  },
+  "keywords": [
+    "power",
+    "timer",
+    "raspberry",
+    "pi"
+  ],
+  "author": "Max Montgelas",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/maugdog/power-timer/issues"
+  },
+  "homepage": "https://github.com/maugdog/power-timer#readme",
+  "dependencies": {
+    "powerswitch": "git@github.com:maugdog/powerswitch.git"
+  }
+}
